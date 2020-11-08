@@ -43,8 +43,6 @@ void quickSort(int* arr, int left, int right) {
 }
 
 int main() {
-	//система ввода строки чисел единоразовым вводом с любым количеством пробелов
-	//возможен ввод большего количества чисел, чем заданное n, но запишутся только первые n чисел
 	setlocale(LC_ALL, "rus");
 	int n, data = 0;
 	vector<int> array; 
